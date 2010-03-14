@@ -1,11 +1,15 @@
 Revision history for XRI-Resolution-Lite
 
-0.02  2008-08-15 / 15:50
+0.03  2010-03-14 21:52:10
+
+  * Do not use downed xri global proxy resolver on t/01_resolve.t
+
+0.02  2008-08-15 15:50:00
 
   * Add resolution output format flags at third arguments of resolve() methods 
   * Specified output format "text/uri-list", it is returned as ARRAY or ARRAYREF.
 
-0.01  2008-05-15 / 16:34
+0.01  2008-05-15 16:34:00
 
   * First version, released on an unsuspecting world.
 
