@@ -2,12 +2,11 @@ package XRI::Resolution::Lite;
 
 use strict;
 use warnings;
-
-use base qw(Class::Accessor::Fast);
+use parent qw(Class::Accessor::Fast);
 
 __PACKAGE__->mk_accessors(qw/resolver ua parser/);
 
-use Carp::Clan;
+use Carp;
 use HTTP::Request;
 use LWP::UserAgent;
 use URI;
@@ -19,11 +18,11 @@ XRI::Resolution::Lite - The Lightweight client module for XRI Resolution
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my %param_map = (
     format => '_xrd_r',
