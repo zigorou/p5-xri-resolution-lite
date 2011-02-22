@@ -59,7 +59,7 @@ This param must be HASH reference. Available 2 fields.
 =item resolver
 
 (Optional) URI string of XRI Proxy Resolver.
-If this param is omitted, using XRI Global Proxy Resolver, "http://xri.net/", as resover.
+If this param is omitted, using XRI Global Proxy Resolver, "http://xri.net/", as resolver.
 
 =back 
 
@@ -162,7 +162,7 @@ Specifies whether a resolver should automatically construct service endpoint URI
 
 =item cid
 
-Specifies whether automatic canonical ID verifi-cation should performed. default value is 1
+Specifies whether automatic canonical ID verification should performed. default value is 1
 
 =back
 

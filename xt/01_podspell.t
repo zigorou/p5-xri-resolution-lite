@@ -8,3 +8,18 @@ __DATA__
 Toru Yamaguchi
 zigorou@cpan.org
 XRI::Resolution::Lite
+HTTPS
+MediaType
+Refs
+SAML
+URI
+cation
+cid
+https
+param
+refs
+saml
+sep
+ua
+uric
+url
